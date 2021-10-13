@@ -34,7 +34,7 @@ class PostController extends Controller
     public function getCommentByPost($id)
     {
         # code...
-        $cmt=Post::find($id)->comments;
+        $cmt=Post::find($id)->comments; 
         return $cmt;
     }
    
